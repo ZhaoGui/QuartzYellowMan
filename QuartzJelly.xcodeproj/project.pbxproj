@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B41E43AD1CB349F4007E568D /* DrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = B41E43AC1CB349F4007E568D /* DrawLine.m */; };
 		B43A46DC1CB348E9002C21EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B43A46DB1CB348E9002C21EF /* main.m */; };
 		B43A46DF1CB348E9002C21EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B43A46DE1CB348E9002C21EF /* AppDelegate.m */; };
 		B43A46E21CB348E9002C21EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43A46E11CB348E9002C21EF /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B41E43AB1CB349F4007E568D /* DrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLine.h; sourceTree = "<group>"; };
+		B41E43AC1CB349F4007E568D /* DrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLine.m; sourceTree = "<group>"; };
 		B43A46D71CB348E9002C21EF /* QuartzJelly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzJelly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43A46DB1CB348E9002C21EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B43A46DD1CB348E9002C21EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				B43A46DE1CB348E9002C21EF /* AppDelegate.m */,
 				B43A46E01CB348E9002C21EF /* ViewController.h */,
 				B43A46E11CB348E9002C21EF /* ViewController.m */,
+				B41E43AB1CB349F4007E568D /* DrawLine.h */,
+				B41E43AC1CB349F4007E568D /* DrawLine.m */,
 				B43A46E31CB348E9002C21EF /* Main.storyboard */,
 				B43A46E61CB348E9002C21EF /* Assets.xcassets */,
 				B43A46E81CB348E9002C21EF /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				B43A46E21CB348E9002C21EF /* ViewController.m in Sources */,
 				B43A46DF1CB348E9002C21EF /* AppDelegate.m in Sources */,
 				B43A46DC1CB348E9002C21EF /* main.m in Sources */,
+				B41E43AD1CB349F4007E568D /* DrawLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				B43A47061CB348E9002C21EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B43A47071CB348E9002C21EF /* Build configuration list for PBXNativeTarget "QuartzJellyTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				B43A47091CB348E9002C21EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B43A470A1CB348E9002C21EF /* Build configuration list for PBXNativeTarget "QuartzJellyUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				B43A470C1CB348E9002C21EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
